@@ -1,7 +1,7 @@
 import { Redis } from '@upstash/redis'
 const redis = new Redis({
-    url: 'https://discrete-elk-41407.upstash.io',
-    token: 'AaG_AAIncDFiYzVhM2Y3ZGI1NWE0OTUyYjAyNmI3MTY4NDA3ZTE1YnAxNDE0MDc',
+    url: process.env.UPSTASH_REDIS_REST_URL,
+    token: process.env.UPSTASH_REDIS_REST_TOKEN,
   })
 
   const countryList = [
