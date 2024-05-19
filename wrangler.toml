@@ -1,0 +1,6 @@
+name="fastapisearch"
+compatibility_date="2024-05-19"
+
+[vars]
+UPSTASH_REDIS_REST_TOKEN = "AaG_AAIncDFiYzVhM2Y3ZGI1NWE0OTUyYjAyNmI3MTY4NDA3ZTE1YnAxNDE0MDc"
+UPSTASH_REDIS_REST_URL = "https://discrete-elk-41407.upstash.io"
