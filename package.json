@@ -8,7 +8,7 @@
     "start": "next start",
     "lint": "next lint",
     "deploy": "wrangler deploy --minify --name fastapisearch src/app/api/[[...route]]/route.ts",
-    "pages:build":"npx @cloudflare/next-on-pages"
+    "pages:build":"pnpm dlx @cloudflare/next-on-pages"
   },
   "dependencies": {
     "@radix-ui/react-dialog": "^1.0.5",
